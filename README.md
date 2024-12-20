@@ -7,7 +7,7 @@
 ## Thực hành
 Quy trình:
 
-![Untitled Diagram drawio (2)](https://github.com/user-attachments/assets/febf78ea-0097-4760-9650-cf332ab2798f)
+![Untitled Diagram drawio (3)](https://github.com/user-attachments/assets/2860c0e1-9729-4ab6-8e02-f21605d9ac17)
 
 ***1. Người dùng nhấn nút "Đăng nhập bằng Facebook"***
 - Trên website của bạn, có một nút "Login with Facebook". Khi người dùng nhấn vào, sẽ được chuyển hướng đến ```Authorization Server (Facebook OAuth Server)``` của ```Facebook```.
