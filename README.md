@@ -1,3 +1,19 @@
+# OAuth (Open Authorization)
+- OAuth là một giao thức ủy quyền (authorization protocol) giúp ứng dụng có thể truy cập tài nguyên của người dùng trên một hệ thống khác mà không cần phải lưu trữ hoặc quản lý mật khẩu của người dùng.
+
+## Mục đích 
+
+- Cho phép một ứng dụng ```Client)``` truy cập vào tài nguyên (data hoặc API) của người dùng trên một dịch vụ khác ```(Resource Server ví dụ: Google Drive)``` mà không cần chia sẻ thông tin đăng nhập ```password)```.
+  
+## Cách hoạt động cơ bản
+- ```Người dùng cấp quyền:``` Người dùng đồng ý cho ứng dụng Client truy cập vào tài nguyên của mình.
+- ```Mã truy cập (Access Token):``` Sau khi được cấp quyền, dịch vụ ```(Authorization Server)``` cung cấp một mã truy cập ```(Access Token)``` cho ```Client```.
+- ```Truy cập tài nguyên:``` Ứng dụng sử dụng mã này để truy cập tài nguyên trên ```Resource Server```.
+
+- **Chú ý**
+  - ```Authorization Server``` nơi user lấy access key rồi từ đó sẽ truy cập từ ```Resource Server```
+  - ví dụ: ```Authorization Server``` : https://developers.google.com hay https://developers.facebook.com/
+
 # OAuth 2.0 
 ## Chuẩn bị
 - Lấy thông tin ```Client ID và Client Secret```
