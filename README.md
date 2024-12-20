@@ -11,7 +11,7 @@
 - ```Truy cập tài nguyên:``` Ứng dụng sử dụng mã này để truy cập tài nguyên trên ```Resource Server```.
 
 - **Chú ý**
-  - ```Authorization Server``` nơi user lấy access key rồi từ đó sẽ truy cập từ ```Resource Server```
+  - ```Authorization Server``` nơi user lấy access key rồi từ đó sẽ truy cập từ ```Resource Server (ví dụ: google drive)```
   - ví dụ: ```Authorization Server``` : https://developers.google.com hay https://developers.facebook.com/
 
 # OAuth 2.0 
