@@ -27,8 +27,8 @@ Quy trình:
 ```
 https://yourwebsite.com/callback?code=AUTHORIZATION_CODE
 ```
-- Chú ý
-  - Bản thân ```Authorization Code``` không chứ thông tin người dùng.
+- **Chú ý**
+  - Bản thân ```Authorization Code``` không chứ thông tin người dùng và nó cũng gi nhớ cho 1 phiên đăng nhập của một người dùng duy nhất.
     
 ***5. Website đổi mã ủy quyền lấy Access Token***
 - Website của bạn gửi mã ủy quyền này tới Facebook Authorization Server (qua một yêu cầu bảo mật từ server-side) kèm theo:
